@@ -1,0 +1,11 @@
+{
+  "name": "pillguard",
+  "version": "1.0.0",
+  "description": "PillGuard - Chronic care remote monitoring & pill compliance tracker (MERNOVA X 2026)",
+  "scripts": {
+    "install-all": "npm --prefix server install && npm --prefix client install",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed"
+  }
+}

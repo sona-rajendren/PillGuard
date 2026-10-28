@@ -1,0 +1,13 @@
+node_modules/
+.env
+server/uploads/*
+!server/uploads/.gitkeep
+client/dist/
+mobile/build/
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+mobile/android/local.properties
+mobile/ios/Flutter/Generated.xcconfig
+mobile/ios/Flutter/ephemeral/
